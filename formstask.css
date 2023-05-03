@@ -1,0 +1,52 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;    
+  }
+.address-section{
+display: flex;
+flex-direction: row;
+padding:10px 8px;
+
+}
+.address-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-start;  
+    align-items: flex-start;
+}
+.additional-details{
+    display: flex;
+    flex-direction: row;
+    padding:10px 8px;  
+}
+.additional-items{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-start;  
+    align-items: flex-start;
+}
+.hobbies{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 8px;
+}
+.hobbies-items{
+    display: flex;
+    flex-direction:column;
+    gap: 8px;
+    justify-content: flex-start;  
+    align-items: flex-start;
+
+}
+   

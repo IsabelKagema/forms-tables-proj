@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="./formstask.css"/>
+</head>
+<body>
+    <form action="a"method="#">
+    <div>
+    <div  >
+        <fieldset>
+            <legend>Your Address</legend>
+            <div class="address-section" >
+                <div class="address-item">
+                    <label style="margin-right:158px ;" for="fName">First name</label>
+                    <label style="margin-right:158px ;" for="lname">Last name</label>
+                    <label style="margin-right:158px ;" for="Street">Street</label>
+                    <label style="margin-right:158px ;" for="City">City</label>
+                </div>
+                <div class="address-item">
+                    <input required type="text" name="fName" maxlength="20" id=" fname" >
+                    <input required type="text" name="lname" maxlength="20" id=" lname" >
+                    <input required type="text" name="Street" maxlength="20" id=" street" >
+                    <input required type="text" name="City" maxlength="20" id=" city" >
+         
+                </div>       
+            </div>
+        </fieldset>  
+    </div>
+ 
+        <fieldset>
+            <legend>Additional Details</legend>
+            <div>
+            <div class="additional-details">
+                <div class="additional-items">
+                <label style="margin-right:158px ;" for="Biography">Biography</label><br>
+                <label style="margin-right:158px ;" for="image">Choose image</label><br>
+                <label style="margin-right:158px ;" for="Age Group">Age Group</label><br>
+            </div>
+            <div>
+                <div class="additional-items">
+                <input required type = textarea name= message placeholder="Enter a Message" maxlength="50" required style="width: 158px; height:50px;">
+               </textarea><br> 
+               
+               <input required type="file" id="myfile" name="myfile"><br>  
+               <select name="Age Group" id="Age Group">
+                <option value="0 to 9 years">0 to 9 years</option>
+                <option value="10 to 19 years">10 to 19 years</option>
+                <option value="20 to 29 years">20 to 29 years</option>
+                <option value="30 to 39 years">30 t0 39</option>
+                <option value="40 and Above">40 and Above</option>
+                </select>
+            </div>
+        </fieldset>     
+    </div>
+        <div>
+    <fieldset>
+
+           <legend>Interests</legend>
+           <div>
+            <div>
+                <div class="hobbies">
+                    <div class="hobbies-items">
+                    <label style="margin-right:158px ;" for="Hobbies">Hobbies</label><br>
+                    <label style="margin-right:158px ;" for="Favourite Car">Favourite Car</label><br>
+                    <label style="margin-right:158px ;" for="Favourite Public Transport">Favourite Public Transport</label><br>
+                </div>
+            <div class="hobbies.items">
+                <div class="hobbies-items">
+               <select name ="Hobbies" id="Hobbies" multiple><br>
+                   <option value="Playing Soocer">Playing Soocer</option>
+                   <option value="Dancing">Dancing</option>
+                   <option value="Gardening">Gardening</option>
+                   <option value="Watching Movies">Watching Movies</option>
+                   <option value="Baking">Baking</option><br>
+               </select>
+        
+            </div>
+        <div>
+            <div class="favourite car-items">
+               <select name="Favourite Car" id="Favourite Car"><br>
+               <option value="Mercedes Benz">Mercedes Benz</option>
+               <option value="Volkswagen">Volkswagen</option>
+               <option value="BMW">BMW</option>
+               <option value="Ferrari">Ferrari</option><br>
+           </select>
+       </div>
+   <div>
+    <div class="favourite public transport-items">
+
+       <select id="Public Transport"><br>
+         <optgroup label="Ground">
+           <option value="Train">Train</option>
+           <option value="Bus">Bus</option>
+        <option value="Motorbike">Motorbike</option>
+       </optgroup>
+   <optgroup label="Water">
+       <option value="Ship">Ship</option>
+       <option value="Boat">Boat</option>
+       <option value="Ski-Jet">Ski-Jet</option>
+   </optgroup>
+ </select>
+ </div>
+</fieldset>
+</div>
+</form>
+           
+</body>
+</html>
